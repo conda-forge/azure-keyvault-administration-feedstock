@@ -9,7 +9,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/azure_keyvault_administration-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/azure-keyvault-administration-${{ version }}.tar.gz
   sha256: 8d0edefad78024c3a97b071fa5cf50daf923085e9d4379259f7237d911e66810
 
 build:
