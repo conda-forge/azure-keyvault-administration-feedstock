@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-keyvault-administration
-  version: 4.5.0
+  version: "4.6.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/azure_keyvault_administration-${{ version }}.tar.gz
-  sha256: 6539676eca70560ad76abb8d5bd3af8aecb1715817ed915ee600867f265b7e95
+  sha256: d583029e2efaa09e1e1c46f7c01bb1bc1f890388acbf2354a42d1f3379f734e4
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - python >=${{ python_min }}
     - azure-core >=1.31.0
     - isodate >=0.6.1
-    - typing_extensions >=4.0.1
+    - typing_extensions >=4.6.0
 
 tests:
   - python:
