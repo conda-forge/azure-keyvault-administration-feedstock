@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-keyvault-administration
-  version: "4.7.2"
+  version: "4.8.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/azure_keyvault_administration-${{ version }}.tar.gz
-  sha256: db40044448ed901c4b04755537cd2167d40837376bcd2277139fb6881d40747c
+  sha256: 9df0d0948802483490b7c020595eaed5cd4ddf1470606b657abf63b29159188e
 
 build:
   number: 0
